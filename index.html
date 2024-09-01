@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atelier grid</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="p-4 bg-info text-center">Navbar</nav>
+    <div class="container-fluid">
+      <div class="row">
+        <!-------------- premiere grande col ---------------->
+        <div class="col-md-6 col-lg-3 p-5 bg-success">sidebar</div>
+        <!-------------- deuxieme grande col ---------------->
+        <div class="col-md-6 col-lg-9 bg-white">
+          <!--------------la partie du col 8 la deuxieme grande col ---------------->
+          <div class="row">
+            <div class="col p-5 bg-primary text-center" style="height: 190px;">main</div>
+            <!------------ les contents ------------------>
+            <div class="container-fluid">
+              <div class="row">
+                <!---------------- content 1----------------->
+                <div class="col-4 bg-warning p-4 text-center" style="height: 160px;">content-1</div>
+                <!------------------- content 1 ----------------->
+                <div class="col-4 bg-danger p-4 text-center" style="height: 160px;">content-2</div>
+                <!-------------------- content 1 ------------------------>
+                <div class="col-4 bg-warning p-4 text-center" style="height: 160px;">content-3</div>
+              </div>
+              <!----------------- footer ------------------>
+              <div class="row">
+                <footer class="p-4 bg-secondary" style="height: 135px;">footer</footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
